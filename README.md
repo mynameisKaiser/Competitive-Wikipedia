@@ -18,7 +18,7 @@ A race against time, in the format of Wikipedia.
 
 ## About The Project
 
-Although Wikipedia Speedrun websites exist do their job as advertised, this project seeks to "gameify" the Wikipedia experience whilst simultaneously allowing users to familiarise themselves with Wiki structures and find information more efficiently.
+Although Wikipedia Speedrun websites exist, this project seeks to "gameify" the Wikipedia experience whilst simultaneously allowing users to familiarise themselves with Wiki structures and find information more efficiently.
 
 Some of the features that set Competitive Wikipedia apart are:
 
