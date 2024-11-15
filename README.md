@@ -4,9 +4,9 @@
 <a href="https://github.com/ShaanCoding/ReadME-Generator">
 <img src="https://picsum.photos/400" alt="Logo" width="80" height="80">
 </a>
-<h3 align="center">Competitive Wikipedia</h3>
+<h3 align="center">🏁 Competitive Wikipedia</h3>
 <p align="center">
-A race against time, in the format of Wikipedia.
+⏱ A race against time, in the format of Wikipedia.
 
 <br/>
 <br/>
@@ -16,9 +16,9 @@ A race against time, in the format of Wikipedia.
 </p>
 </div>
 
-## About The Project
+## 👀 About The Project
 
-Although Wikipedia Speedrun websites exist, this project seeks to "gameify" the Wikipedia experience whilst simultaneously allowing users to familiarise themselves with Wiki structures and find information more efficiently.
+You might be suprised to learn about Wikipedia Speedruns, where the goal is to get from a starting article to a target article in the shortest amount of clicks and time possible. Although Wikipedia Speedrun websites exist, this project seeks to "gameify" the Wikipedia experience whilst simultaneously allowing users to familiarise themselves with Wiki structures and find information more efficiently.
 
 Some of the features that set Competitive Wikipedia apart are:
 
