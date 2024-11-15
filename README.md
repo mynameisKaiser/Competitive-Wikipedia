@@ -27,23 +27,21 @@ Some of the features that set Competitive Wikipedia apart are:
 - A competitive environment, with both local and online leaderboards, as well as shops where players can purchase buffs and advantages
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [Python](https://www.python.org/)
 - [HTML](https://html.spec.whatwg.org/)
 - [CSS](https://www.w3.org/)
 - [Java](https://www.java.com/)
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
+- [x] Placeholder
+- [x] Placeholder
+- [ ] Placeholder
+- [ ] Placeholder
+- [ ] Placeholder
+  - [ ] Placeholder
+  - [ ] Placeholder
 
-See the [open issues](https://github.com/ShaanCoding/ReadME-Generator/issues) for a full list of proposed features (and known issues).
+See the [open issues](placeholderlink) for a full list of proposed features (and known issues).
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -52,9 +50,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`placeholder`) link template: git checkout -b feature/AmazingFeature
+3. Commit your Changes (`placeholder`) link template: git commit -m 'Add some AmazingFeature'
+4. Push to the Branch (`placeholder`) link template: git push origin feature/AmazingFeature
 5. Open a Pull Request
 ## License
 
