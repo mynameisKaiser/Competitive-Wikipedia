@@ -1,8 +1,9 @@
 
 <br/>
 <div align="center">
-<a href="https://github.com/ShaanCoding/ReadME-Generator">
-<img src="https://picsum.photos/400" alt="Logo" width="80" height="80">
+<a href="https://github.com/mynameisKaiser/Competitive-Wikipedia">
+<img ![image](https://github.com/user-attachments/assets/ec19e650-cf53-4ebb-af20-e55307e86de0)>
+
 </a>
 <h3 align="center">🏁 Competitive Wikipedia</h3>
 <p align="center">
