@@ -2,8 +2,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/mynameisKaiser/Competitive-Wikipedia">
-<img ![image](https://github.com/user-attachments/assets/fe4e3903-befe-4e89-8c65-b90dc15c2a5a)>
-
+<img src="[https://picsum.photos/400](https://github.com/user-attachments/assets/fe4e3903-befe-4e89-8c65-b90dc15c2a5a)" alt="Logo" width="494" height="102">
 </a>
 <h3 align="center">🏁 Competitive Wikipedia</h3>
 <p align="center">
