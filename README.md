@@ -18,7 +18,7 @@
 
 ## 👀 About The Project
 
-You might be suprised to learn about Wikipedia Speedruns, where the goal is to get from a starting article to a target article in the shortest amount of clicks and time possible. Although Wikipedia Speedrun websites exist, this project seeks to "gameify" the Wikipedia experience whilst simultaneously allowing users to familiarise themselves with Wiki structures and find information more efficiently.
+You might be suprised to learn about Wikipedia Speedruns, where the goal is to get from a starting article to a target article in the shortest amount of clicks and time possible. Although Wikipedia Speedrun websites exist, this project seeks to "gameify" the Wikipedia experience whilst simultaneously allowing users to familiarise themselves with wiki structures and find information more efficiently.
 
 Some of the features that set Competitive Wikipedia apart are:
 
