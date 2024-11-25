@@ -29,6 +29,7 @@ Some of the features that set Competitive Wikipedia apart are:
 - [HTML](https://html.spec.whatwg.org/)
 - [CSS](https://www.w3.org/)
 - [Java](https://www.java.com/)
+- [Bootstrap](https://getbootstrap.com/)
 ## Roadmap
 
 - [x] Placeholder
