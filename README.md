@@ -28,7 +28,7 @@ Some of the features that set Competitive Wikipedia apart are:
 - [Python](https://www.python.org/)
 - [HTML](https://html.spec.whatwg.org/)
 - [CSS](https://www.w3.org/)
-- [Java](https://www.java.com/)
+- [Javascript](https://www.javascript.com/)
 - [Bootstrap](https://getbootstrap.com/)
 ## Roadmap
 
