@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "CompetitiveWiki",
+  "version": "1.0",
+  "description": "Tracks how long it takes you to get from one Wikipedia page to another and how many links you went through, and makes it a game",
+  "icons": {
+    "48": "icons/Wikipedia-Logo-48.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.wikipedia.org/*"],
+      "js": ["gamelogic.js"]
+    }
+  ]
+}

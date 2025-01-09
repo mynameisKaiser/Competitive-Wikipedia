@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
