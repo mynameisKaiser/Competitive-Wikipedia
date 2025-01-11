@@ -1,19 +1,51 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    width: 300px;
-    height: 200px;
-    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+    width: 300px; /* Set a fixed width for the popup */
 }
 
 #timer {
-    font-size: 24px;
-    margin-top: 20px;
+    font-size: 28px; /* Larger font size for the timer */
+    font-weight: bold;
+    margin: 20px 0; /* Margin above and below the timer */
+    text-align: center; /* Center align the timer text */
+    color: #007BFF; /* Bootstrap primary color, maybe change later */
 }
 
 button {
-    margin: 10px;
-    padding: 10px 15px;
-    font-size: 16px;
+    width: 100%; /* Full width buttons */
+    padding: 10px; /* Padding for buttons */
+    margin-top: 5px; /* Space between buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007BFF; /* Bootstrap primary color, maybe change later */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+h3 {
+    margin-top: 20px; /* Space above headings */
+}
+
+#article-info {
+    margin-bottom: 20px; /* Space below article info section */
+}
+
+#pastRunsList {
+    list-style-type: none; /* Remove bullet points from list */
+    padding-left: 0; /* Remove default padding from list */
+}
+
+#pastRunsList li {
+    background-color: #e9ecef; /* Light gray background for past runs items */
+    padding: 5px;
+    margin-bottom: 5px; /* Space between past runs items */
 }
