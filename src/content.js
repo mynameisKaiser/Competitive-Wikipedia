@@ -3,3 +3,5 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         window.location.href = message.startPage; // Redirect current tab to starting page
     }
 });
+
+

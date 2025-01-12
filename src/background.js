@@ -8,19 +8,22 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 startTime = Date.now();
                 timerInterval = setInterval(() => {
                     const elapsedTime = Math.floor((Date.now() - startTime) / 1000);
-                    chrome.storage.local.set({ elapsedTime }); // Store elapsed time - https://developer.chrome.com/docs/extensions/reference/api/storage
-                    console.log(`Elapsed Time Updated: ${elapsedTime}`); // Debug log
+                    chrome.storage.local.set({ elapsedTime });
                 }, 1000);
             }
             break;
         case 'stopTimer':
             clearInterval(timerInterval);
             startTime = null;
-            chrome.storage.local.remove('elapsedTime'); // Reset stored time
+            chrome.storage.local.remove('elapsedTime');
             break;
-        case 'logElapsedTime':
-            const loggedTime = Math.floor((Date.now() - startTime) / 1000);
-            chrome.storage.local.set({ loggedTime }); // Log time when target article is reached
+        case 'redirectToStartPage':
+            chrome.tabs.update(sender.tab.id, { url: message.startPage });
+            break;
+        case 'getElapsedTime':
+            sendResponse({ elapsedTime: Math.floor((Date.now() - startTime) / 1000) });
             break;
     }
 });
+
+

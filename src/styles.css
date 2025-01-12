@@ -1,51 +1,59 @@
+/* Default (Light) Theme */
+:root {
+    --background-color: #f4f4f4; /* Light background */
+    --text-color: #333; /* Dark text */
+    --button-background: #007BFF; /* Primary button color */
+    --button-hover-background: #0056b3; /* Button hover color */
+}
+
+/* Dark Theme */
+body.dark {
+    --background-color: #333; /* Dark background */
+    --text-color: #f4f4f4; /* Light text */
+}
+
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #f4f4f4; /* Light background color */
-    color: #333; /* Dark text color */
-    width: 300px; /* Set a fixed width for the popup */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 300px; /* Fixed width for the popup */
+}
+
+.theme-toggle-container {
+    position: absolute; /* Position it at the top right corner */
+    top: 10px;
+    right: 10px;
 }
 
 #timer {
-    font-size: 28px; /* Larger font size for the timer */
+    font-size: 28px;
     font-weight: bold;
-    margin: 20px 0; /* Margin above and below the timer */
-    text-align: center; /* Center align the timer text */
-    color: #007BFF; /* Bootstrap primary color, maybe change later */
+    margin-top: 40px; /* Adjust margin to avoid overlap with toggle switch */
 }
 
 button {
-    width: 100%; /* Full width buttons */
-    padding: 10px; /* Padding for buttons */
-    margin-top: 5px; /* Space between buttons */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #007BFF; /* Bootstrap primary color, maybe change later */
-    color: white; /* White text color */
-    font-size: 16px; /* Font size for buttons */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect :3333333 */
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--button-background);
+    color: white;
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: var(--button-hover-background);
 }
 
 h3 {
-    margin-top: 20px; /* Space above headings */
+    margin-top: 20px;
 }
 
 #article-info {
-    margin-bottom: 20px; /* Space below article info section */
+    margin-bottom: 20px;
 }
 
 #pastRunsList {
     list-style-type: none; /* Remove bullet points from list */
-    padding-left: 0; /* Remove default padding from list */
-}
-
-#pastRunsList li {
-    background-color: #e9ecef; /* Light gray background for past runs items */
-    padding: 5px;
-    margin-bottom: 5px; /* Space between past runs items */
 }
