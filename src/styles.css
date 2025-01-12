@@ -24,7 +24,7 @@ button {
     color: white; /* White text color */
     font-size: 16px; /* Font size for buttons */
     cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect :3333333 */
 }
 
 button:hover {

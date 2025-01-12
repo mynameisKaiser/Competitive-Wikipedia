@@ -8,7 +8,8 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 startTime = Date.now();
                 timerInterval = setInterval(() => {
                     const elapsedTime = Math.floor((Date.now() - startTime) / 1000);
-                    chrome.storage.local.set({ elapsedTime }); // Store elapsed time
+                    chrome.storage.local.set({ elapsedTime }); // Store elapsed time - https://developer.chrome.com/docs/extensions/reference/api/storage
+                    console.log(`Elapsed Time Updated: ${elapsedTime}`); // Debug log
                 }, 1000);
             }
             break;

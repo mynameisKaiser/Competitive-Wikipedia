@@ -2,6 +2,10 @@ document.getElementById('startButton').addEventListener('click', () => {
     loadArticles();
 });
 
+// Start overall timer in background
+chrome.runtime.sendMessage({ action: 'startTimer' });
+// Load starting article and target article from storage
+
 document.getElementById('endButton').addEventListener('click', () => {
     // Stop overall timer in background and reset without logging time
     chrome.runtime.sendMessage({ action: 'stopTimer' });
@@ -42,7 +46,7 @@ function loadArticles() {
 
 // Function to update timer display based on stored elapsed time
 function updateTimerDisplay() {
-    // Clear any existing intervals to avoid multiple intervals running
+    // Clear any existing instance to avoid multiple instances running
     clearInterval(window.timerInterval);
 
     // Set a new interval to update the timer display

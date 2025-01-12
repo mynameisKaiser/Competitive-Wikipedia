@@ -25,20 +25,19 @@ Some of the features that set Competitive Wikipedia apart are:
 - A competitive environment, with both local and online leaderboards, as well as shops where players can purchase buffs and advantages
 ### Built With
 
-- [Python](https://www.python.org/)
 - [HTML](https://html.spec.whatwg.org/)
 - [CSS](https://www.w3.org/)
 - [Javascript](https://www.javascript.com/)
 - [Bootstrap](https://getbootstrap.com/)
 ## Roadmap
 
-- [x] Placeholder
-- [x] Placeholder
-- [ ] Placeholder
-- [ ] Placeholder
-- [ ] Placeholder
-  - [ ] Placeholder
-  - [ ] Placeholder
+- [x] Random link generation
+- [x] Redirection
+- [x] UI design
+- [ ] Shop
+- [ ] Timer logic (WIP)
+  - [ ] Auto Start
+  - [ ] Auto Stop
 
 See the [open issues](placeholderlink) for a full list of proposed features (and known issues).
 ## Contributing
